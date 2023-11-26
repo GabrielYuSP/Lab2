@@ -30,7 +30,7 @@ def calc_min_max_temperature(list):
 def calc_median_temperature(list):
     x = sorted(list)
     mid = len(list) // 2
-    result = (list[mid] + list[~mid]) / 2
+    result = (x[mid] + x[~mid]) / 2
     return result
 
 
